@@ -27,7 +27,7 @@ dependencyResolutionManagement {
 
             library("bstats", "org.bstats", "bstats-bukkit-lite").version("1.8")
 
-            library("hikaricp", "com.zaxxer", "HikariCP").version("5.1.0")
+            library("hikaricp", "com.zaxxer", "HikariCP").version("6.2.1")
 
             library("oshi-core", "com.github.oshi", "oshi-core").version("6.6.6")
 
