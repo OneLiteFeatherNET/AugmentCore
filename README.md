@@ -1,54 +1,59 @@
-![CoreProtect](https://userfolio.com/uploads/coreprotect-banner-v19.png)
-
 [![Artistic License 2.0](https://img.shields.io/github/license/PlayPro/CoreProtect?&logo=github)](LICENSE)
-[![GitHub Workflows](https://github.com/PlayPro/CoreProtect/actions/workflows/build.yml/badge.svg)](https://github.com/PlayPro/CoreProtect/actions)
-[![Netlify Status](https://img.shields.io/netlify/c1d26a0f-65c5-4e4b-95d7-e08af671ab67)](https://app.netlify.com/sites/coreprotect/deploys)
-[![CodeFactor](https://www.codefactor.io/repository/github/playpro/coreprotect/badge)](https://www.codefactor.io/repository/github/playpro/coreprotect)
-[![Join us on Discord](https://img.shields.io/discord/348680641560313868.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/b4DZ4jy)
+[![GitHub Workflows](https://github.com/TheMeinerLP/AugmentCore/actions/workflows/build.yml/badge.svg)](https://github.com/TheMeinerLP/AugmentCore/actions)
+[![Join us on Discord](https://img.shields.io/discord/752527676903784518.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/onelitefeather)
 
-CoreProtect
+AugmentCore
 ===========
 
-CoreProtect is a blazing fast data logging and anti-griefing tool for Minecraft servers.
+AugmentCore is a blazing fast data logging and anti-griefing tool for Minecraft servers based on core protect source code.
+**This plugin is a fork of [original](https://github.com/PlayPro/CoreProtect/) one, but with many improvements and fixes.**
 
-For a detailed description of the plugin, please visit [coreprotect.net](https://coreprotect.net).
 
-| Quick Links |  |
-| --- | --- |
-| CoreProtect Discord: | [discord.gg/b4DZ4jy](https://discord.gg/b4DZ4jy) |
-| CoreProtect Patreon: | [patreon.com/coreprotect](https://www.patreon.com/coreprotect) |
-| CoreProtect Documentation: | [docs.coreprotect.net](https://docs.coreprotect.net) |
-| Downloads for MC 1.14 - 1.20: | [coreprotect.net/latest](https://coreprotect.net/latest/) |
-| Downloads for MC 1.8 - 1.12: | [coreprotect.net/legacy](https://coreprotect.net/legacy/) |
+| Quick Links                             |                                                                |
+|-----------------------------------------|----------------------------------------------------------------|
+| AugmentCore/OneLiteFeather.NET Discord: | [discord.gg/onelitefeather](https://discord.gg/onelitefeather)     |
 
-bStats
+Major Changes
 ------
-[![bStats Graph Data](https://bstats.org/signatures/bukkit/CoreProtect.svg)](https://bstats.org/plugin/bukkit/CoreProtect)
-
-API
-------
-### [API Documentation](https://docs.coreprotect.net/api/)
-
-### Dependency Information
-Maven
-```xml
-<repository>
-    <id>playpro-repo</id>
-    <url>https://maven.playpro.com</url>
-</repository>
-```
-```xml
-<dependency>
-    <groupId>net.coreprotect</groupId>
-    <artifactId>coreprotect</artifactId>
-    <version>22.4</version>
-    <scope>provided</scope>
-</dependency>
-```
+To-Do:
+- [ ] Drop support for Minecraft 1.8 - 1.19
+- [ ] Add support for Minecraft 1.20 - 1.21
+- [ ] Drop spigot support
+- [ ] Fix database implementation
+- [ ] Add support for various databases via Hibernate
+- [ ] Add support partition tables
+- [ ] Improve database structure
+- [ ] Refactor code
+  - [ ] Migration to Java 21
+  - [ ] Use Java 21 features
+  - [ ] Improve code quality
+  - [ ] Improve performance
+  - [ ] Improve logging
+  - [ ] Improve error handling
+  - [ ] Improve configuration
+  - [ ] Improve command handling
+  - [ ] Improve API
+  - [ ] Improve database handling
+  - [ ] Improve block handling
+  - [ ] Improve player handling
+  - [ ] Improve world handling
+  - [ ] Improve session handling
+  - [ ] Improve rollback handling
+  - [ ] Improve restore handling
+  - [ ] Improve lookup handling
+  - [ ] Improve purge handling
+  - [ ] Improve inspect handling
+  - [ ] Improve queue handling
+  - [ ] Improve data handling
+  - [ ] Improve event handling
+  - [ ] Port to Gradle
+  - [ ] Improve build process
+  - [ ] Improve deployment process
+  - [ ] Split into multiple modules
 
 Contributing
 ------
-CoreProtect is an open source project, and gladly accepts community contributions.
+AugmentCore is an open source project, and gladly accepts community contributions.
 
 If you'd like to contribute, please read our contributing guidelines here: [CONTRIBUTING.md](CONTRIBUTING.md)
 
