@@ -24,7 +24,7 @@ To-Do:
 - [ ] Add support partition tables
 - [ ] Improve database structure
 - [ ] Refactor code
-  - [ ] Migration to Java 21
+  - [X] Migration to Java 21
   - [ ] Use Java 21 features
   - [ ] Improve code quality
   - [ ] Improve performance
@@ -46,7 +46,7 @@ To-Do:
   - [ ] Improve queue handling
   - [ ] Improve data handling
   - [ ] Improve event handling
-  - [ ] Port to Gradle
+  - [X] Port to Gradle
   - [ ] Improve build process
   - [ ] Improve deployment process
   - [ ] Split into multiple modules
