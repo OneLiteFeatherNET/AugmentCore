@@ -16,7 +16,7 @@ dependencyResolutionManagement {
     }
     versionCatalogs {
         create("libs") {
-            version("intellectual-sites-bom", "1.45")
+            version("intellectual-sites-bom", "1.52")
             version("publishdata", "1.4.0")
 
             library("intellectual.sites.bom", "com.intellectualsites.bom", "bom-newest").versionRef("intellectual-sites-bom")
