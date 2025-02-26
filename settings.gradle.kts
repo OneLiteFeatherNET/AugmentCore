@@ -29,7 +29,7 @@ dependencyResolutionManagement {
 
             library("hikaricp", "com.zaxxer", "HikariCP").version("6.2.1")
 
-            library("oshi-core", "com.github.oshi", "oshi-core").version("6.6.6")
+            library("oshi-core", "com.github.oshi", "oshi-core").version("6.7.0")
 
             plugin("publishdata", "de.chojo.publishdata").versionRef("publishdata")
         }
